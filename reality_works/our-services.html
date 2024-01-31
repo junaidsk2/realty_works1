@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Realty</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  
+
+    
+     <style>
+       .col-md-6 {
+            position: relative;
+            overflow: hidden;
+        }
+    
+      .col-md-6 img {
+           width: 100%;
+           height: auto;
+            transition: transform 0.5s ease-in-out;
+        }
+    
+        .col-md-6:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+ <style>
+    .text-container p {
+        transition: background-color 0.5s ease-in-out;
+        padding: 10px; /* Optional: Add padding for a better visual effect */
+    }
+
+    .text-container p:hover {
+        background-color: rgba(0, 0, 0, 0.1); /* Adjust the alpha (fourth value) for darkness */
+    }
+</style>
+   
+   <style>
+    .zoom-hover {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .zoom-hover img {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .zoom-hover:hover img {
+        transform: scale(1.2);
+    }
+</style>
+   
+   
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="logo">
+                        <img class="img-fluid" src="img/logo.png" alt="Icon" style="width: 7rem;
+                        height: 2.7rem;">
+                    </div>
+                    <!-- <h1 class="m-0 text-primary">REALTY</h1> -->
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Warehouse</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="ready-to-move.html" class="dropdown-item">Ready-To-Move</a>
+                                <a href="built-to-suit.html" class="dropdown-item">Built-To-Suit</a>
+                                <!-- <a href="property-agent.html" class="dropdown-item">Property Agent</a> -->
+                            </div>
+                        </div>
+                        <a href="industrial-shed.html" class="nav-item nav-link">Industrial Shed</a>
+                        <a href="land.html" class="nav-item nav-link">Open Land</a>
+
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Commercial</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="office.html" class="dropdown-item">Office Space</a>
+                                <a href="shop.html" class="dropdown-item">shop</a> -->
+                                <!--<a href="404.html" class="dropdown-item">Sales</a>-->
+                            <!-- </div>
+                        </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Residential</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Our Services</h1> 
+                        <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">Our Services</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <img class="img-fluid" src="./img/servicebg.jpg" alt="">
+                </div>
+            </div>
+    </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <!-- <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Property Type</option>
+                                    <option value="1">Property Type 1</option>
+                                    <option value="2">Property Type 2</option>
+                                    <option value="3">Property Type 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Location</option>
+                                    <option value="1">Location 1</option>
+                                    <option value="2">Location 2</option>
+                                    <option value="3">Location 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100 py-3">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Search End -->
+
+    <!--<div class="section"style=" margin-top: 5rem;">-->
+    <!--        <div class="container">-->
+    <!--          <div class="row text-left mb-5">-->
+    <!--            <div class="col-12">-->
+                  <!-- <h2 class="font-weight-bold heading text-primary mb-4">About Us</h2> -->
+    <!--            </div>-->
+    <!--            <div class="col-lg-6">-->
+    <!--              <p class="text-black-50">-->
+    <!--               Realty Works stands as the pinnacle of property investment and real estate solutions in Pune, India. -->
+    <!--               Established with a vision to redefine excellence in the real estate sector,-->
+    <!--               we have become synonymous with trust, expertise, -->
+    <!--               and unparalleled service delivery.-->
+    <!--              </p>-->
+    <!--              <p class="text-black-50">-->
+    <!--                At Realty Works, we understand the unique needs of businesses looking for the perfect industrial or commercial space to thrive.-->
+    <!--                Whether you are a startup, an established enterprise,-->
+    <!--                or an investor seeking lucrative opportunities,-->
+    <!--                we have a diverse range of properties to meet your requirements.-->
+    <!--  <strong>Realty Works has been dealing in the field of Industrial properties and commercial office space segment since 2016 </strong>and has leased approx. 2,00,000 sq. ft.-->
+    <!--  of premium commercial office space and sold high-end/ultra-luxury apartments for more than 100cr. throughout Pune.-->
+      
+      
+    <!--              </p>-->
+    <!--              <p class="text-black-50">-->
+    <!--                Excellence is the cornerstone of our operations. We uphold the highest standards in every facet of our services,-->
+    <!--                from meticulous property evaluations to comprehensive market analyses.-->
+    <!--                This dedication allows us to curate a portfolio of properties that meets the diverse needs of our clientele.-->
+    <!--              </p>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-6">-->
+    <!--              <p class="text-black-50">-->
+    <!--               At Realty Works, we pride ourselves on being Pune's preeminent property investment platform,-->
+    <!--               specializing in industrial and commercial properties. With a commitment to excellence, transparency, and client satisfaction,-->
+    <!--               we have become the go-to choice for businesses, investors, and property seekers looking to navigate Pune's dynamic real estate landscape.-->
+      
+    <!--              </p>-->
+    <!--              <p class="text-black-50">-->
+    <!--              </p><h5> Our Mission:</h5>-->
+    <!--  To empower businesses and investors with tailored real estate solutions, fostering growth and success in Pune's industrial and commercial sectors.<br>-->
+      
+    <!--       <h5>Our Vision:</h5>-->
+    <!--  To be the undisputed leader in facilitating strategic property investments, driving economic development and prosperity in Pune and beyond.-->
+      
+      
+    <!--              <p></p>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--</div>-->
+<div class="section"  style="margin-top: 5rem;">
+    <div class="container">
+        <div class="row text-left mb-5">
+            <div class="col-12">
+                <!-- <h2 class="font-weight-bold heading text-primary mb-4">About Us</h2> -->
+            </div>
+            <div class="col-lg-6 text-container">
+                <p class="text-black-50">
+                  <h5> Property Consultation and Advisory:</h5>
+Our expert team at Realty Works offers personalized consultations and advisory services. Whether you're a business looking to expand, an investor seeking opportunities, or a property seeker navigating the market, we provide in-depth insights and strategic guidance to help you make informed decisions
+
+                </p>
+                <p class="text-black-50">
+                   <h5> Property Listing and Marketing:</h5>
+For property owners looking to sell or lease, we provide comprehensive listing and marketing services. Through targeted strategies and a wide network, we ensure maximum exposure for your property, attracting potential buyers or tenants
+
+                </p>
+                <p class="text-black-50">
+                    <h5>Investment Analysis:</h5>
+Navigating the complex world of real estate investments requires careful analysis. Realty Works offers detailed investment analysis services, helping investors identify lucrative opportunities and make sound investment decisions.
+
+                </p>
+            </div>
+            <div class="col-lg-6 text-container">
+                <p class="text-black-50">
+                    <h5>Loan Assistance: </h5>
+                    We assist our clients to avail of loans at the lowest rate of interest from best of the banking and non-banking institution..
+
+                </p>
+                
+                <p>
+                    <h5>Property Management:</h5>
+For property owners, our property management services ensure that your investment is well-maintained. From tenant relations to routine maintenance, we take care of the day-to-day responsibilities, allowing you to focus on your core business.
+
+                </p>
+                
+                <p>
+                  <h5>Property Matter Settlement:</h5> 
+                  We have a dedicated team to settle matters of disputed property/land/apartment/plot etc.
+
+                </p>
+                <p>
+                    <h5>Customer Service:</h5> 
+                    The key principle of our business is customer service. We help our clients with expansion plans and assist in planning, architecture support, and facility management services. We offer excellent service and appropriate alternatives to our customers, and our team of experts is constantly readily available to support our customers to explore the best appropriate option..
+  
+                  </p>
+                  <p>
+                    <h5>Preleased Investment Portfolio:</h5> 
+                    
+                    We assist our investors in locating the right property with a stable tenant and superior return on investment.   
+                  </p>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- About Start -->
+        
+        <!-- About End -->
+
+
+      
+
+
+
+
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <img src="img/00_Realty_Works_Logo_New.png" alt="img" style="width: 12rem;">
+                <p style="    margin-top: 17px;">Realty Works stands as the pinnacle of property investment and real estate solutions in Pune, India.</p>
+                <div class="d-flex pt-2" style="    padding-top: 0.5rem !important;
+                ">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Get In Touch</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Pune, India</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9834561832</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Quick Links</h5>
+                <a class="btn btn-link text-white-50" href="">About Us</a>
+                <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                <a class="btn btn-link text-white-50" href="our-services.php">Our Services</a>
+                <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                <a class="btn btn-link text-white-50" href="">Terms &amp; Condition</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Newsletter</h5>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    © <a class="border-bottom" href="#">Reality</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="#">Papercut Group</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--<div class="footer-menu">-->
+                    <!--    <a href="">Home</a>-->
+                    <!--    <a href="">Cookies</a>-->
+                    <!--    <a href="">Help</a>-->
+                    <!--    <a href="">FQAs</a>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
